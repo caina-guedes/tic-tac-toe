@@ -58,7 +58,8 @@ function restart(){
     }
     for(number of [1,2,3,4,5,6,7,8,9]){
         let element = document.getElementById(number);
-        element.innerText='';
+        element.classList.remove('Shield');
+        element.classList.remove('Sword');
     }
     currentPlayer=players[0];
 }
