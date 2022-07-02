@@ -39,7 +39,9 @@ function play(id){
                 if (num==id){
                     ele.counter+=1;
                     if(ele.counter==3){
-                        alert(`${currentPlayer.name} won the Game!`)
+                        setTimeout(()=>{
+                            alert(`${currentPlayer.name} won the Game!`)
+                        },50)
                     }
                 }
             }
